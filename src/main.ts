@@ -20,6 +20,7 @@ app.get("/produtos", async (req, res) => {
         })
 
         const [result, fields] = await conexao.query("SELECT * FROM produtos")
+        await conexao.end()
 
 
         res.send(result)
