@@ -8,4 +8,4 @@ CREATE TABLE IF NOT EXISTS produtos(
     preco DECIMAL(10,2),
     imagem VARCHAR(300)
 );
-INSERT INTO produtos VALUES (1,"Iphone","Celular RUIM",5000.50,"SEM IMAGEM");
+INSERT INTO produtos VALUES (1,'Iphone','Celular RUIM',5000.50,'SEM IMAGEM');
