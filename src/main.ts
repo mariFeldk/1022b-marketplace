@@ -25,7 +25,7 @@ app.get("/produtos", async (req, res) => {
 
 
         res.send(result)
-    } catch (e) {
+    } catch (a) {
         res.status(500).send("erro do servidor")
     }
 
